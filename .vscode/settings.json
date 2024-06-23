@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Enabled",
+                "ssl": {
+                    "ca": "/home/szymon/Downloads/global-bundle.pem"
+                }
+            },
+            "previewLimit": 50,
+            "server": "certteststack-rdsinstance58d7648b-jnmni731stbs.czmigwo2exx5.us-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "dummy_cert_connection",
+            "database": "dummy_DB",
+            "username": "admin"
+        }
+    ]
+}
